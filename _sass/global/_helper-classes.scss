@@ -1,0 +1,27 @@
+.width,
+.wrapper {
+    max-width: rem(900);
+    margin: 0 auto;
+    width: 92%;
+}
+
+.wrapper {
+    padding: rem(30) 0;
+
+    @media (min-width: $largebp) {
+        padding: rem(50) 0;
+    }
+}
+
+.relative {
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+.offscreen {
+    position: absolute;
+    left: rem(-9999);
+}

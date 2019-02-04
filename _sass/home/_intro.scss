@@ -1,0 +1,21 @@
+.home-intro {
+    max-width: 580px;
+    margin-bottom: 50px;
+    display: flex;
+    margin-top: rem(50);
+
+    .image {
+        width: rem(70);
+
+    }
+
+    .text {
+        flex: 1;
+        margin-left: rem(40);
+    }
+
+    h1 {
+        font-size: rem(24);
+        margin-bottom: rem(14);
+    }
+}

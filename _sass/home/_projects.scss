@@ -1,0 +1,88 @@
+.home-projects {
+    h2 {
+        font-size: rem(20);
+        margin-bottom: rem(20);
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    li {
+        width: calc(50% - 0.5rem);
+        margin-bottom: rem(16);
+
+        @media (min-width: $mediumbp) {
+            width: calc(33.33333% - 0.75rem);
+            margin-bottom: 18px;
+            list-style: none;
+        }
+
+        @media (min-width: $largebp) {
+            width: calc(25% - 0.75rem);
+            margin-bottom: rem(16);
+            list-style: none;
+        }
+
+        &:last-child {
+            display: none;
+
+            @media (min-width: $mediumbp) {
+                display: block;
+            }
+
+            @media (min-width: $largebp) {
+                display: none;
+            }
+        }
+    }
+
+    a {
+        background: $grayBg;
+        height: rem(140);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.2s background-color;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+
+    .bf-reviews-img {
+        width: rem(135);
+    }
+
+    .nifty-svg,
+    .tasty-svg {
+        width: rem(80);
+    }
+
+    .homesick-svg,
+    .social-sabotage-svg {
+        width: rem(120);
+    }
+
+    .lunarly-svg {
+        width: rem(140);
+    }
+
+    .peel-svg {
+        width: rem(70);
+    }
+
+    .fite-svg {
+        width: rem(90);
+    }
+
+    .holden-svg {
+        width: rem(110);
+    }
+
+    .jumpcut-svg {
+        width: rem(115);
+    }
+}

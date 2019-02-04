@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+
+    .logo {
+        display: block;
+    }
+
+    ul {
+        margin-left: auto;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    li, 
+    a {
+        display: block;
+    }
+
+    li + li {
+        margin-left: rem(40);
+    }
+
+    a {
+        color: $black;
+        fill: $black;
+
+        &:hover {
+            color: $red;
+            fill: $red;
+        }
+    }
+}

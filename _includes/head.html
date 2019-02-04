@@ -1,0 +1,13 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title}}{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+    <link href="{{ '/assets/favicon.ico' | asset_url }}" rel="icon" type="image/x-icon">
+    {% feed_meta %}
+    {% if jekyll.environment == 'production' and site.google_analytics %}
+      {%- include google-analytics.html -%}
+    {% endif %}
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+</head>

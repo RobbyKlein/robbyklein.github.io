@@ -1,0 +1,23 @@
+<header class="header">
+    <a class="logo" href="{{ '/' | relative_url }}">
+        {% include svg/logo.svg %}
+    </a>
+    
+    <ul>
+        <li>
+            <a href="https://github.com/{{ site.github }}">
+                {% include svg/github.svg %}
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/{{ site.twitter }}" class="twitter">
+                {% include svg/twitter.svg %}
+            </a>
+        </li>
+        <li>
+            <a href="mailto:{{ site.email }}" class="mail">
+                {% include svg/mail.svg %}
+            </a>
+        </li>
+    </ul>
+</header>

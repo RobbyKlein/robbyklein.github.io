@@ -1,0 +1,20 @@
+// Colors
+$white: #fff;
+$black: #111;
+$text: #333;
+$grayBg: #f6f6f6;
+$red: #e41111;
+
+// fonts
+$font: 'Rubik', sans-serif;
+
+// Breakpoints
+$tinybp: rem(374);
+$smallbp: rem(500);
+$mediumbp: rem(600);
+$largebp: rem(800);
+$xlargebp: rem(1100);
+
+// Transitions
+$fadeOffTransition: left 0s 0.15s, opacity 0.15s;
+$fadeOnTransition: left 0s, opacity 0.15s;
