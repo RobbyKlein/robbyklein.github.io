@@ -25,18 +25,6 @@
             margin-bottom: rem(16);
             list-style: none;
         }
-
-        &:last-child {
-            display: none;
-
-            @media (min-width: $mediumbp) {
-                display: block;
-            }
-
-            @media (min-width: $largebp) {
-                display: none;
-            }
-        }
     }
 
     a {
